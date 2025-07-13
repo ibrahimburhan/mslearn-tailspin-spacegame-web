@@ -7,7 +7,8 @@ trigger:
 - main
 
 pool:
-  vmImage: 'Default'
+  #vmImage: 'Default'
+  name: Default
   demands:
     - GITHUB_USER -equals ibrahimburhan
     - HOSTNAME -equals codespaces-2c33ff
