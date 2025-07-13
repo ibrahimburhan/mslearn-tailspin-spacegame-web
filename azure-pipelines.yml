@@ -9,7 +9,8 @@ trigger:
 pool:
   #vmImage: 'Default'
   name: Default
-
+  demands:
+    - HOSTNAME -equals codespaces-2c33ff
 
 variables:
   solution: '**/*.sln'
