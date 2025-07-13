@@ -10,7 +10,8 @@ pool:
   #vmImage: 'Default'
   name: Default
   demands:
-    - HOSTNAME -equals codespaces-2c33ff
+    - Agent.Name -equals IBRAHIMLAPTOP
+    - msbuild -equals C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\
 
 variables:
   solution: '**/*.sln'
